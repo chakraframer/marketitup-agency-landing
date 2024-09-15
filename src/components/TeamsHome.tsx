@@ -1,4 +1,4 @@
-import { AspectRatio, Box, Card, Flex, Heading, Image, Stack } from '@chakra-ui/react'
+import { AspectRatio, Box, Card, Flex, Heading, Image, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 
 export default function TeamsHome() {
@@ -11,9 +11,11 @@ export default function TeamsHome() {
            <AspectRatio ratio={4/3}>
            <Image src={member.imgae} alt={member.name} />
            </AspectRatio>
-            <h2>{member.name}</h2>
-            <p>{member.position}</p>
-            <p>{member.description}</p>
+            <Stack padding={2}>
+            <Heading>{member.name}</Heading>
+            <Text>{member.position}</Text>
+            <Text>{member.description}</Text>
+            </Stack>
           </Card>
         ))}
       </Flex>
