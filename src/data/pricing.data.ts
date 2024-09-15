@@ -1,0 +1,58 @@
+export const pricingPlans = [
+  {
+    name: 'Basic',
+    priceMonth: 99,
+    features: [
+      'Initial Consultation',
+      'Website Audit',
+      'Keyword Research',
+      'Basic SEO Optimization',
+      'Social Media Account Setup',
+      'Content Creation',
+      'Email Template Design',
+      'Monthly Reporting',
+    ],
+  },
+  {
+    name: 'Standard',
+    priceMonth: 246,
+    features: [
+      'Comprehensive Consultation',
+      'Advanced Website Audit',
+      'Advanced Keyword Research',
+      'On-Page SEO Optimization',
+      'Social Media Management',
+      'Content Strategy Development',
+      'Email Marketing Campaigns',
+      'Monthly Analytics Review',
+    ],
+  },
+  {
+    name: 'Premium',
+    priceMonth: 699,
+    features: [
+      'Strategic Planning',
+      'Custom Website Development',
+      'Advanced SEO Services',
+      'Paid Advertising Campaigns',
+      'Advanced Social Media Management',
+      'Content Creation & Distribution',
+      'Advanced Email Marketing Automation',
+      'Quarterly Strategy Reviews',
+    ],
+  },
+  {
+    name: 'Enterprise',
+    priceMonth: 1499,
+    features: [
+      'Dedicated Account Manager',
+      'Customized Solutions',
+      'Priority Support',
+      'Advanced Analytics & Reporting',
+      'Exclusive Workshops & Training',
+      '24/7 Monitoring & Support',
+      'Custom SLAs (Service Level Agreements)',
+      'Tailored Strategy Consultation',
+    ],
+  },
+]
