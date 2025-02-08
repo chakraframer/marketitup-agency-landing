@@ -1,7 +1,7 @@
 import { extendTheme } from '@chakra-ui/react'
 
 const theme = extendTheme({
-  // custom color for scrollbar
+  // global styles for the entire app
   styles: {
     global: {
       margin: 0,
